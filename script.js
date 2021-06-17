@@ -2,10 +2,13 @@
 
 
 // a) Solicitar al usuario que ingrese 5 nombres de frutas y almacenarlos en un array.
-    // let frutas =["Pera","Manzana","Kiwui","Melon","Sandia"]
-    // for (let i = 0; i < 5; i++) {
-    // }
-    // alert(`Las frutas son: ${frutas}`);
+    let frutas =[]
+    let incluir;
+    for (let i = 0; i < 5; i++) {
+        incluir=prompt("Ingrese 5 nombre de frutas");
+        frutas.push(incluir)
+    }
+    alert(`Las frutas son: ${frutas}`);
 // b) Ahora, solicitar al usuario que ingrese otros nombres de frutas, la cantidad que desee, sin pedirle de antemano cuál será la cantidad a ingresar.
     // let frutas2=[];
     // let agregar;
@@ -106,13 +109,13 @@
     // } alert(`El numero mayor es: ${mayor}`)
 
 // Mostrar la mitad de elementos del array. (Pensar esto como si no supieramos la cantidad de posiciones que tiene.)
-let medio; 
-let numeros=[1,4,5,8,33,12,31,7];
- for (i = 0; i < numeros.length ; i++) {
-    }
-    medio=i/2;
-    alert(`La mitad del array es igual a: ${medio}`)
-for (i = 0; i < medio; i++){
-    alert(`Los numeros de la  mitad del array son: ${numeros[i]}`)
-} 
+// let medio; 
+// let numeros=[1,4,5,8,33,12,31,7];
+//  for (i = 0; i < numeros.length ; i++) {
+//     }
+//     medio=i/2;
+//     alert(`La mitad del array es igual a: ${medio}`)
+// for (i = 0; i < medio; i++){
+//     alert(`Los numeros de la  mitad del array son: ${numeros[i]}`)
+// } 
 
