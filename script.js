@@ -72,17 +72,47 @@
     // alert(artistas)
 
 // 5)  Crear un array de 8 posiciones con números enteros  y mostrar:
-        let numeros=[2,4,6,8,10,12,14,20];
+        // let numeros=[1,4,5,8,33,12,31,7];
 // Su longitud
+    // let numeros=[1,4,5,8,33,12,31,7];
     // for ( i = 0; i < numeros.length; i++) {
     // }
     // alert(i)
 // Solo las posiciones impares.
-for (let i = 0; i < numeros.length; i++) {;
-    if (i%2!=0) {
-        alert([numeros[i]])
-    }
-}
+    // let numeros=[1,4,5,8,33,12,31,7];
+    // for ( i = 0; i < numeros.length; i++) {;
+    //     if (i%2!=0) {  
+    //         alert([numeros[i]])
+    //     }
+        
+    // }
+
 // Solo los NUMEROS impares.
+    // let numeros=[1,4,5,8,33,12,31,7];
+    // for (let i = 0; i < numeros.length; i++) {
+    //     if (numeros[i]%2!=0) {
+    //         alert(numeros[i])
+    //     }
+        
+    // }
 // El mayor de ellos
+    // let mayor=0;
+    // let numeros=[1,4,5,8,33,12,31,7];
+    // for (i = 0; i < numeros.length; i++) {
+    //         if ( numeros[i]>mayor) {
+    //             mayor=numeros[i]
+            
+    //         }
+    // } alert(`El numero mayor es: ${mayor}`)
+
 // Mostrar la mitad de elementos del array. (Pensar esto como si no supieramos la cantidad de posiciones que tiene.)
+let medio; 
+let numeros=[1,4,5,8,33,12,31,7];
+ for (i = 0; i < numeros.length ; i++) {
+    }
+    medio=i/2;
+    alert(`La mitad del array es igual a: ${medio}`)
+for (i = 0; i < medio; i++){
+    alert(`Los numeros de la  mitad del array son: ${numeros[i]}`)
+} 
+
